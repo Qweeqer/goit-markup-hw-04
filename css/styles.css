@@ -121,7 +121,7 @@ text-decoration: none;}
 
 /* <-------Hero section------> */
 .hero.section {background: #C4C4C4;
-background-image: url(../images/heroimg.jpg), url(../images/herooverlaybg.jpg);
+background-image: url(../images/heroimg.jpg), url(../images/herooverlaybg.png);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
