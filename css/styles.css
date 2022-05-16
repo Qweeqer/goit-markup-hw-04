@@ -324,8 +324,8 @@ fill: #AFB1B8;}
 .footer {background-color: var(--hero-footer-bg);}
 
 /* Footer logo */
-.footer.container{display: block;
-}
+.footer.container{display: flex;
+align-items: baseline}
 .footer .logo {display: inline-block;
 padding-top: 60px;
 color: var(--hero-text);
@@ -356,9 +356,17 @@ font-style: normal;}
 .address-tel {color: rgba(255, 255, 255, 0.6);}
 
 /* <--Social join list---------> */
-.footer-social{width: 206px;
-        height: 80px;}
-.footer-join{font-weight: 700;
+.footer-social{
+margin-left: 70px;
+padding-top: 75px;
+width: 206px;
+height: 80px;
+
+}
+.footer-join{padding-bottom: 20px;
+display: flex;
+align-items: flex-start;
+font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
