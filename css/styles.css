@@ -114,12 +114,14 @@ fill:var(--brand-color)}
 .link-tel {padding-top: 32px;
         padding-bottom: 32px;
 display: flex;
+align-items: center;
 justify-content: space-between;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--secondary-text);
+fill:var(--secondary-text);
 text-decoration: none;}
 .mail-icon{align-items: baseline;}
 
