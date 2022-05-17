@@ -132,7 +132,7 @@ text-decoration: none;}
 /* <-----Main content-------> */
 
 /* <-------Hero section------> */
-.hero.section {background: rgba(47, 48, 58, 0.4);
+.hero.section {background: linear-gradient(to bottom right, #2F303A 40%, rgba(47, 48, 58, 0.4));
 background-image: url(../images/heroimg.jpg);
 background-repeat: no-repeat;
 background-position: center;
